@@ -123,18 +123,33 @@ export const initialClasses = [
 ];
 
 export const initialStudents = [
-  { id: "std-01", name: "John Alexander Doe", country: "Amerika Serikat", flag: "🇺🇸", classId: "bipa-a1", studentNumber: "BIPA-2601" },
-  { id: "std-02", name: "Sakura Tanaka", country: "Jepang", flag: "🇯🇵", classId: "bipa-a1", studentNumber: "BIPA-2602" },
-  { id: "std-03", name: "Pierre Laurent Martin", country: "Prancis", flag: "🇫🇷", classId: "bipa-a1", studentNumber: "BIPA-2603" },
-  { id: "std-04", name: "Kim Min-ji", country: "Korea Selatan", flag: "🇰🇷", classId: "bipa-a1", studentNumber: "BIPA-2604" },
-  { id: "std-05", name: "Hans Mueller", country: "Jerman", flag: "🇩🇪", classId: "bipa-a1", studentNumber: "BIPA-2605" },
-  { id: "std-06", name: "Fatima Al-Zahra", country: "Uni Emirat Arab", flag: "🇦🇪", classId: "bipa-a1", studentNumber: "BIPA-2606" },
-  { id: "std-07", name: "Carlos Manuel Gomez", country: "Spanyol", flag: "🇪🇸", classId: "bipa-a1", studentNumber: "BIPA-2607" },
-  { id: "std-08", name: "Li Wei", country: "Tiongkok", flag: "🇨🇳", classId: "bipa-a1", studentNumber: "BIPA-2608" },
-  { id: "std-09", name: "Elena Rostova", country: "Rusia", flag: "🇷🇺", classId: "bipa-a1", studentNumber: "BIPA-2609" },
-  { id: "std-10", name: "Liam Oliver Smith", country: "Australia", flag: "🇦🇺", classId: "bipa-a1", studentNumber: "BIPA-2610" },
-  { id: "std-11", name: "Siriporn Charoen", country: "Thailand", flag: "🇹🇭", classId: "bipa-a1", studentNumber: "BIPA-2611" },
-  { id: "std-12", name: "Amara Nwachukwu", country: "Nigeria", flag: "🇳🇬", classId: "bipa-a1", studentNumber: "BIPA-2612" }
+  { id: 'std-1', name: 'Sarah Jenkins', country: 'Australia', nim: 'BIPA-2026-081', studentNumber: 'BIPA-2026-081', avatar: '🇦🇺', flag: '🇦🇺', classId: 'bipa-b1' },
+  { id: 'std-2', name: 'Kenji Sato', country: 'Japan', nim: 'BIPA-2026-082', studentNumber: 'BIPA-2026-082', avatar: '🇯🇵', flag: '🇯🇵', classId: 'bipa-b1' },
+  { id: 'std-3', name: 'Min-jun Park', country: 'South Korea', nim: 'BIPA-2026-083', studentNumber: 'BIPA-2026-083', avatar: '🇰🇷', flag: '🇰🇷', classId: 'bipa-b1' },
+  { id: 'std-4', name: 'Emma Watson-Brown', country: 'United Kingdom', nim: 'BIPA-2026-084', studentNumber: 'BIPA-2026-084', avatar: '🇬🇧', flag: '🇬🇧', classId: 'bipa-b1' },
+  { id: 'std-5', name: 'Hans Müller', country: 'Germany', nim: 'BIPA-2026-085', studentNumber: 'BIPA-2026-085', avatar: '🇩🇪', flag: '🇩🇪', classId: 'bipa-b1' },
+  { id: 'std-6', name: 'Camille Dubois', country: 'France', nim: 'BIPA-2026-086', studentNumber: 'BIPA-2026-086', avatar: '🇫🇷', flag: '🇫🇷', classId: 'bipa-b1' },
+  { id: 'std-7', name: 'Alexander Rossi', country: 'Italy', nim: 'BIPA-2026-087', studentNumber: 'BIPA-2026-087', avatar: '🇮🇹', flag: '🇮🇹', classId: 'bipa-b1' },
+  { id: 'std-8', name: 'Li Wei', country: 'China', nim: 'BIPA-2026-088', studentNumber: 'BIPA-2026-088', avatar: '🇨🇳', flag: '🇨🇳', classId: 'bipa-b1' },
+  { id: 'std-9', name: 'Elena Petrova', country: 'Russia', nim: 'BIPA-2026-089', studentNumber: 'BIPA-2026-089', avatar: '🇷🇺', flag: '🇷🇺', classId: 'bipa-b1' },
+  { id: 'std-10', name: 'Carlos Mendoza', country: 'Spain', nim: 'BIPA-2026-090', studentNumber: 'BIPA-2026-090', avatar: '🇪🇸', flag: '🇪🇸', classId: 'bipa-b1' },
+  { id: 'std-11', name: 'Fatima Al-Mansoor', country: 'United Arab Emirates', nim: 'BIPA-2026-091', studentNumber: 'BIPA-2026-091', avatar: '🇦🇪', flag: '🇦🇪', classId: 'bipa-b1' },
+  { id: 'std-12', name: 'Lucas Silva', country: 'Brazil', nim: 'BIPA-2026-092', studentNumber: 'BIPA-2026-092', avatar: '🇧🇷', flag: '🇧🇷', classId: 'bipa-b1' },
+  { id: 'std-13', name: 'Amina Diallo', country: 'Senegal', nim: 'BIPA-2026-093', studentNumber: 'BIPA-2026-093', avatar: '🇸🇳', flag: '🇸🇳', classId: 'bipa-b1' },
+  { id: 'std-14', name: 'Oliver Schmidt', country: 'Austria', nim: 'BIPA-2026-094', studentNumber: 'BIPA-2026-094', avatar: '🇦🇹', flag: '🇦🇹', classId: 'bipa-b1' },
+  { id: 'std-15', name: 'Ananya Sharma', country: 'India', nim: 'BIPA-2026-095', studentNumber: 'BIPA-2026-095', avatar: '🇮🇳', flag: '🇮🇳', classId: 'bipa-b1' },
+  { id: "std-01", name: "John Alexander Doe", country: "Amerika Serikat", flag: "🇺🇸", avatar: "🇺🇸", nim: "BIPA-2601", studentNumber: "BIPA-2601", classId: "bipa-a1" },
+  { id: "std-02", name: "Sakura Tanaka", country: "Jepang", flag: "🇯🇵", avatar: "🇯🇵", nim: "BIPA-2602", studentNumber: "BIPA-2602", classId: "bipa-a1" },
+  { id: "std-03", name: "Pierre Laurent Martin", country: "Prancis", flag: "🇫🇷", avatar: "🇫🇷", nim: "BIPA-2603", studentNumber: "BIPA-2603", classId: "bipa-a1" },
+  { id: "std-04", name: "Kim Min-ji", country: "Korea Selatan", flag: "🇰🇷", avatar: "🇰🇷", nim: "BIPA-2604", studentNumber: "BIPA-2604", classId: "bipa-a1" },
+  { id: "std-05", name: "Hans Mueller", country: "Jerman", flag: "🇩🇪", avatar: "🇩🇪", nim: "BIPA-2605", studentNumber: "BIPA-2605", classId: "bipa-a1" },
+  { id: "std-06", name: "Fatima Al-Zahra", country: "Uni Emirat Arab", flag: "🇦🇪", avatar: "🇦🇪", nim: "BIPA-2606", studentNumber: "BIPA-2606", classId: "bipa-a1" },
+  { id: "std-07", name: "Carlos Manuel Gomez", country: "Spanyol", flag: "🇪🇸", avatar: "🇪🇸", nim: "BIPA-2607", studentNumber: "BIPA-2607", classId: "bipa-a1" },
+  { id: "std-08", name: "Li Wei", country: "Tiongkok", flag: "🇨🇳", avatar: "🇨🇳", nim: "BIPA-2608", studentNumber: "BIPA-2608", classId: "bipa-a1" },
+  { id: "std-09", name: "Elena Rostova", country: "Rusia", flag: "🇷🇺", avatar: "🇷🇺", nim: "BIPA-2609", studentNumber: "BIPA-2609", classId: "bipa-a1" },
+  { id: "std-10", name: "Liam Oliver Smith", country: "Australia", flag: "🇦🇺", avatar: "🇦🇺", nim: "BIPA-2610", studentNumber: "BIPA-2610", classId: "bipa-a1" },
+  { id: "std-11", name: "Siriporn Charoen", country: "Thailand", flag: "🇹🇭", avatar: "🇹🇭", nim: "BIPA-2611", studentNumber: "BIPA-2611", classId: "bipa-a1" },
+  { id: "std-12", name: "Amara Nwachukwu", country: "Nigeria", flag: "🇳🇬", avatar: "🇳🇬", nim: "BIPA-2612", studentNumber: "BIPA-2612", classId: "bipa-a1" }
 ];
 
 export const initialSchedule = [
@@ -641,5 +656,707 @@ export const initialMeetingRecords = [
         reviewNotes: ""
       }
     }
+  },
+  {
+    id: "meet-bipa-2026-04",
+    syllabusId: "syl-04",
+    classId: "bipa-b1",
+    className: "BIPA B1 — Kelas Percakapan & Budaya",
+    meetingNumber: 4,
+    topic: "Tawar-Menawar di Pasar Tradisional & Etika Berbelanja",
+    date: "2026-03-26",
+    time: "10:00 - 11:40",
+    room: "Ruang 402, Gedung Bahasa",
+    teacherName: "Dra. Siti Rahmawati, M.Hum.",
+    attendance: [
+      { studentId: "std-1", name: "Sarah Jenkins", status: "PRESENT", notes: "" },
+      { studentId: "std-2", name: "Kenji Sato", status: "PRESENT", notes: "" },
+      { studentId: "std-3", name: "Min-jun Park", status: "PRESENT", notes: "" },
+      { studentId: "std-4", name: "Emma Watson-Brown", status: "PRESENT", notes: "" },
+      { studentId: "std-5", name: "Hans Müller", status: "EXCUSED", notes: "Excused: Embassy appointment" },
+      { studentId: "std-6", name: "Camille Dubois", status: "PRESENT", notes: "" },
+      { studentId: "std-7", name: "Alexander Rossi", status: "PRESENT", notes: "" },
+      { studentId: "std-8", name: "Li Wei", status: "LATE", notes: "Late: 15 mins bus delay" },
+      { studentId: "std-9", name: "Elena Petrova", status: "PRESENT", notes: "" },
+      { studentId: "std-10", name: "Carlos Mendoza", status: "PRESENT", notes: "" },
+      { studentId: "std-11", name: "Fatima Al-Mansoor", status: "PRESENT", notes: "" },
+      { studentId: "std-12", name: "Lucas Silva", status: "PRESENT", notes: "" },
+      { studentId: "std-13", name: "Amina Diallo", status: "PRESENT", notes: "" },
+      { studentId: "std-14", name: "Oliver Schmidt", status: "PRESENT", notes: "" },
+      { studentId: "std-15", name: "Ananya Sharma", status: "PRESENT", notes: "" }
+    ],
+    plannedVsActual: {
+      plannedUnit: "Unit 4: Tawar-Menawar di Pasar Tradisional",
+      actualUnit: "Unit 4: Tawar-Menawar di Pasar Tradisional & Simulasi Rupiah",
+      deviation: "Sesuai silabus; roleplay simulasi menggunakan mata uang rupiah replika",
+      outcomeAchieved: "Target kompetensi tawar menawar tercapai secara optimal."
+    },
+    signatures: {
+      teacher: {
+        signed: false,
+        signerName: "Dra. Siti Rahmawati, M.Hum.",
+        signedAt: null,
+        signatureDataUrl: null,
+        note: ""
+      },
+      studentRep: {
+        signed: false,
+        signerName: "Sarah Jenkins",
+        signedAt: null,
+        signatureDataUrl: null,
+        note: ""
+      },
+      supervisor: {
+        status: "Pending",
+        signerName: "Prof. Dr. Irwan Susanto",
+        signerTitle: "Koordinator Program BIPA & Kebudayaan",
+        signedAt: null,
+        signatureDataUrl: null,
+        reviewNotes: ""
+      }
+    }
   }
 ];
+
+export const initialUsers = [
+  {
+    id: "user-admin-01",
+    username: "admin",
+    email: "admin@itenas.ac.id",
+    identifier: "admin",
+    password: "admin234",
+    name: "Super Administrator IT",
+    role: "superadmin",
+    title: "Super Administrator Sistem BIPA",
+    avatar: "⚡"
+  },
+  {
+    id: "user-coord-01",
+    username: "koordinator",
+    email: "irwan.susanto@itenas.ac.id",
+    identifier: "koordinator",
+    password: "password123",
+    name: "Prof. Dr. Irwan Susanto",
+    role: "coordinator",
+    title: "Koordinator Program BIPA & Kebudayaan",
+    avatar: "👑"
+  },
+  {
+    id: "user-super-01",
+    username: "supervisor",
+    email: "ratna.handayani@itenas.ac.id",
+    identifier: "supervisor",
+    nip: "197203151998021001",
+    password: "password123",
+    name: "Dra. Ratna Handayani, M.Hum.",
+    role: "supervisor",
+    title: "Quality Assurance / Supervisor BIPA",
+    avatar: "🛡️"
+  },
+  {
+    id: "user-teach-01",
+    username: "dosen",
+    email: "dianita@itenas.ac.id",
+    identifier: "198704122015052001",
+    nip: "198704122015052001",
+    password: "password123",
+    name: "Dianita, S.S., M.Hum.",
+    role: "teacher",
+    title: "Dosen Pengampu BIPA Darmasiswa",
+    avatar: "👩‍🏫"
+  },
+  {
+    id: "user-teach-02",
+    username: "siti.rahmawati",
+    email: "siti.rahmawati@itenas.ac.id",
+    identifier: "dosen-01",
+    nip: "197508152002122001",
+    password: "password123",
+    name: "Dr. Siti Rahmawati, M.Pd.",
+    role: "teacher",
+    title: "Dosen Pengampu BIPA Reguler",
+    avatar: "👩‍🏫"
+  },
+  {
+    id: "user-std-01",
+    username: "312024043",
+    email: "312024043@mhs.itenas.ac.id",
+    identifier: "312024043",
+    nim: "312024043",
+    password: "password123",
+    name: "Phouphakham Bounlom",
+    role: "student",
+    country: "Laos",
+    avatar: "🇱🇦",
+    title: "Mahasiswa Darmasiswa RI"
+  },
+  {
+    id: "user-std-02",
+    username: "312024144",
+    email: "312024144@mhs.itenas.ac.id",
+    identifier: "312024144",
+    nim: "312024144",
+    password: "password123",
+    name: "Tam Chanthasone",
+    role: "student",
+    country: "Laos",
+    avatar: "🇱🇦",
+    title: "Mahasiswa Darmasiswa RI"
+  },
+  {
+    id: "user-std-03",
+    username: "BIPA-2026-081",
+    email: "sarah.jenkins@mhs.itenas.ac.id",
+    identifier: "BIPA-2026-081",
+    nim: "BIPA-2026-081",
+    password: "password123",
+    name: "Sarah Jenkins",
+    role: "student",
+    country: "Australia",
+    avatar: "🇦🇺",
+    title: "Mahasiswa Perwakilan BIPA B1"
+  },
+  {
+    id: "user-std-04",
+    username: "BIPA-2026-082",
+    email: "kenji.sato@mhs.itenas.ac.id",
+    identifier: "BIPA-2026-082",
+    nim: "BIPA-2026-082",
+    password: "password123",
+    name: "Kenji Sato",
+    role: "student",
+    country: "Jepang",
+    avatar: "🇯🇵",
+    title: "Mahasiswa BIPA B1"
+  }
+];
+
+export const initialAssignments = [
+  {
+    id: 'asg-01',
+    role: 'coordinator',
+    roleLabel: 'Koordinator Program BIPA & Kebudayaan',
+    name: 'Prof. Dr. Irwan Susanto',
+    nip: '196807141994031002',
+    email: 'irwan.susanto@itenas.ac.id',
+    skNumber: 'SK-REK/082/BIPA/2026',
+    department: 'Fakultas Teknologi Industri & Biro Akademik',
+    assignedAt: '2026-01-15T08:00:00Z',
+    status: 'ACTIVE',
+    invitedAt: '2026-01-15T08:05:00Z',
+    lastInviteSent: '2026-01-15T08:05:00Z'
+  },
+  {
+    id: 'asg-02',
+    role: 'supervisor',
+    roleLabel: 'Supervisor / Penjamin Mutu BIPA',
+    name: 'Dra. Ratna Handayani, M.Hum.',
+    nip: '197203151998021001',
+    email: 'ratna.handayani@itenas.ac.id',
+    skNumber: 'SK-REK/083/BIPA/2026',
+    department: 'Lembaga Penjaminan Mutu & Pengembangan Pembelajaran',
+    assignedAt: '2026-01-15T08:00:00Z',
+    status: 'ACTIVE',
+    invitedAt: '2026-01-15T08:05:00Z',
+    lastInviteSent: '2026-01-15T08:05:00Z'
+  }
+];
+
+export const itenasInstitutionInfo = {
+  foundation: 'YAYASAN PENDIDIKAN DAYANG SUMBI',
+  institution: 'INSTITUT TEKNOLOGI NASIONAL',
+  bureau: 'BIRO KERJA SAMA, HUBUNGAN MASYARAKAT DAN PEMASARAN',
+  address: 'Jalan PH.H. Mustofa No. 23 Bandung 40124 Indonesia, Telepon: +62-22-7272215 ext 273, Fax: +62-22-7202892',
+  webEmail: 'Website: http://www.itenas.ac.id , e-mail: humas@itenas.ac.id',
+  programTitle: 'Presensi Darmasiswa RI – Itenas Bandung',
+  defaultPeriod: 'Maret 2025',
+};
+
+export const darmasiswaStudentsList = [
+  {
+    nim: '312024043',
+    name: 'Phouphakham Bounlom',
+    country: 'Laos',
+    flag: '🇱🇦',
+    gender: 'Laki-laki',
+  },
+  {
+    nim: '312024144',
+    name: 'Tam Chanthasone',
+    country: 'Laos',
+    flag: '🇱🇦',
+    gender: 'Perempuan',
+  },
+];
+
+export const initialDarmasiswaSessions = [
+  {
+    id: 'sesi-1',
+    no: 1,
+    dayDate: 'Senin/03 Maret 2025',
+    dateIso: '2025-03-03',
+    material: 'Menyimak dan berbicara mengenai informasi yang berkaitan dengan istilah-istilah yang digunakan ketika sakit',
+    facilitatorName: 'Dianita, S.S., M.Hum.',
+    facilitatorNip: '198704122015052001',
+    facilitatorSigned: true,
+    facilitatorSignTime: '2025-03-03 11:45:00 WIB',
+    attendances: {
+      '312024043': {
+        attended: false,
+        status: 'ABSENT',
+        note: 'Izin urusan perpanjangan visa imigrasi',
+        signTime: null,
+      },
+      '312024144': {
+        attended: true,
+        status: 'PRESENT',
+        note: 'Hadir tepat waktu di kelas bahasa',
+        signTime: '2025-03-03 08:05:22 WIB',
+      },
+    },
+  },
+  {
+    id: 'sesi-2',
+    no: 2,
+    dayDate: 'Selasa/04 Maret 2025',
+    dateIso: '2025-03-04',
+    material: 'Tarian Kreasi Manuk Dadali',
+    facilitatorName: 'Iis Tjuhartika Pandi, S.Psi.',
+    facilitatorNip: '198908232018012002',
+    facilitatorSigned: true,
+    facilitatorSignTime: '2025-03-04 11:50:00 WIB',
+    attendances: {
+      '312024043': {
+        attended: false,
+        status: 'ABSENT',
+        note: 'Kurang sehat / flu',
+        signTime: null,
+      },
+      '312024144': {
+        attended: true,
+        status: 'PRESENT',
+        note: 'Hadir praktik gerak tari',
+        signTime: '2025-03-04 08:12:10 WIB',
+      },
+    },
+  },
+  {
+    id: 'sesi-3',
+    no: 3,
+    dayDate: 'Selasa/04 Maret 2025',
+    dateIso: '2025-03-04',
+    material: 'Wawancara kepada Mahasiswa Itenas tentang Tradisi Ramadhan di beberapa daerah.',
+    facilitatorName: 'Iis Tjuhartika Pandi, S.Psi.',
+    facilitatorNip: '198908232018012002',
+    facilitatorSigned: true,
+    facilitatorSignTime: '2025-03-04 14:30:00 WIB',
+    attendances: {
+      '312024043': {
+        attended: true,
+        status: 'PRESENT',
+        note: 'Hadir wawancara lapangan kampus',
+        signTime: '2025-03-04 13:04:18 WIB',
+      },
+      '312024144': {
+        attended: true,
+        status: 'PRESENT',
+        note: 'Hadir wawancara lapangan kampus',
+        signTime: '2025-03-04 13:02:44 WIB',
+      },
+    },
+  },
+  {
+    id: 'sesi-4',
+    no: 4,
+    dayDate: 'Rabu/05 Maret 2025',
+    dateIso: '2025-03-05',
+    material: 'Membaca dan menulis mengenai informasi yang berkaitan dengan istilah-istilah yang digunakan ketika sakit',
+    facilitatorName: 'Dianita, S.S., M.Hum.',
+    facilitatorNip: '198704122015052001',
+    facilitatorSigned: true,
+    facilitatorSignTime: '2025-03-05 11:35:00 WIB',
+    attendances: {
+      '312024043': {
+        attended: true,
+        status: 'PRESENT',
+        note: 'Hadir drill kosakata',
+        signTime: '2025-03-05 08:10:05 WIB',
+      },
+      '312024144': {
+        attended: true,
+        status: 'PRESENT',
+        note: 'Hadir drill kosakata',
+        signTime: '2025-03-05 08:08:33 WIB',
+      },
+    },
+  },
+  {
+    id: 'sesi-5',
+    no: 5,
+    dayDate: "Jum'at/07 Maret 2025",
+    dateIso: '2025-03-07',
+    material: 'Unit 4. Cara melakukan sesuatu. Kemampuan Menyimak dan Berbicara',
+    facilitatorName: 'Siti Sopiah, S.S., M.Pd.',
+    facilitatorNip: '198502142012042003',
+    facilitatorSigned: true,
+    facilitatorSignTime: '2025-03-07 11:15:00 WIB',
+    attendances: {
+      '312024043': {
+        attended: false,
+        status: 'ABSENT',
+        note: 'Izin kegiatan persekutuan',
+        signTime: null,
+      },
+      '312024144': {
+        attended: true,
+        status: 'PRESENT',
+        note: 'Hadir menyimak & berbicara',
+        signTime: '2025-03-07 08:15:40 WIB',
+      },
+    },
+  },
+  {
+    id: 'sesi-6',
+    no: 6,
+    dayDate: "Jum'at/07 Maret 2025",
+    dateIso: '2025-03-07',
+    material: 'Unit 4. Keterampilan Membaca dan Menulis',
+    facilitatorName: 'Siti Sopiah, S.S., M.Pd.',
+    facilitatorNip: '198502142012042003',
+    facilitatorSigned: true,
+    facilitatorSignTime: '2025-03-07 14:00:00 WIB',
+    attendances: {
+      '312024043': {
+        attended: false,
+        status: 'ABSENT',
+        note: 'Izin kegiatan persekutuan',
+        signTime: null,
+      },
+      '312024144': {
+        attended: true,
+        status: 'PRESENT',
+        note: 'Hadir membaca teks narasi',
+        signTime: '2025-03-07 13:05:11 WIB',
+      },
+    },
+  },
+];
+
+export const initialCourses = [
+  {
+    id: 'unit-4',
+    unitNumber: 4,
+    unitTitle: 'Unit 4 Pages 42 to 55',
+    bookTitle: 'BIPA B1 Conversation Textbook',
+    title: 'Bargaining at the Traditional Market and Shopping Etiquette',
+    category: 'Conversation and Culture',
+    image: '/task_market.jpg',
+    description: 'Master polite bargaining etiquette, traditional counting units bunch, kilo, pieces, and polite inquiry expressions.',
+    audioTitle: 'Audio Track 04 Market Dialog Listening',
+    audioDuration: '15 Minutes',
+    progress: 85,
+    level: 'B1 Intermediate',
+    isCompleted: false,
+    topics: [
+      'Polite bargaining expressions: Bolehkah kurang sedikit',
+      'Traditional counting units: bunch ikat, comb sisir, kilo',
+      'Market etiquette: avoiding low bargaining on early morning sales penglaris',
+      'Simulated cash transactions and QRIS digital payment at traditional stalls'
+    ],
+    vocabularies: [
+      { term: 'Menawar', meaning: 'To bargain and negotiate price' },
+      { term: 'Pas', meaning: 'Exact fixed price' },
+      { term: 'Kembalian', meaning: 'Change money returned' },
+      { term: 'Penglaris', meaning: 'First morning sale for good luck' },
+      { term: 'Ikat and Sisir', meaning: 'Counting unit for greens or bananas' }
+    ],
+    grammarFocus: 'Polite Request Formulations Bolehkah, Bisakah, Tolong',
+    downloadableDocs: ['Unit4_Market_Slides.pdf', 'Bargaining_Practice_Worksheet.docx'],
+    driveUrl: 'https://drive.google.com'
+  },
+  {
+    id: 'unit-misi-1',
+    unitNumber: 4.5,
+    unitTitle: 'Active Field Mission',
+    bookTitle: 'BIPA B1 Fieldwork Practicum',
+    title: 'Campus Canteen Ordering and Local Student Interview Practicum',
+    category: 'Immersive Mission',
+    image: '/task_canteen.jpg',
+    description: 'Order food independently without English at the Campus Canteen, inquire about traditional Sundanese ingredients, and take 1 selfie photo as proof',
+    audioTitle: 'Canteen Interview Audio Guide',
+    audioDuration: '8 Minutes',
+    progress: 75,
+    level: 'B1 Immersive Task',
+    isCompleted: false,
+    topics: [
+      'Order Indonesian cuisine directly with canteen food vendors',
+      'Inquire about flavor profiles: savory gurih, spicy sweet, tangy',
+      'Interview 1 local university student about their favorite Indonesian dish',
+      'Upload selfie verification and reflective vocabulary notes'
+    ],
+    vocabularies: [
+      { term: 'Pedas sedang', meaning: 'Medium spicy' },
+      { term: 'Bungkus or Makan di sini', meaning: 'Takeaway or Dine in' },
+      { term: 'Rekomendasi', meaning: 'Recommendation' }
+    ],
+    grammarFocus: 'Open Inquiry Questions Apa isi menu ini, Bagaimana rasanya',
+    downloadableDocs: ['B1_Canteen_Mission_Guide.pdf'],
+    driveUrl: 'https://drive.google.com',
+    isMission: true
+  },
+  {
+    id: 'unit-3',
+    unitNumber: 3,
+    unitTitle: 'Unit 3 Pages 28 to 41',
+    bookTitle: 'BIPA B1 Conversation Textbook',
+    title: 'Public Transportation and Asking for Directions in Bandung',
+    category: 'Daily Conversation',
+    image: '/task_market.jpg',
+    description: 'Understand angkot transit routes, book ride hailing motorbike taxis, and navigate using local landmarks',
+    audioTitle: 'Audio Track 03 Public Transit Angkot Dialogue',
+    audioDuration: '12 Minutes',
+    progress: 100,
+    level: 'B1 Intermediate',
+    isCompleted: true,
+    topics: [
+      'Direction vocabulary: turn left, right, go straight, three way junction, crossroads',
+      'Taking angkot: Kiri Bang, Ongkos berapa',
+      'Online ride hailing mobile apps in Indonesia'
+    ],
+    vocabularies: [
+      { term: 'Pertigaan', meaning: 'Three way junction' },
+      { term: 'Perempatan', meaning: 'Crossroads intersection' },
+      { term: 'Ongkos', meaning: 'Fare or transport fee' }
+    ],
+    grammarFocus: 'Locative Prepositions di depan, di seberang, dekat, samping',
+    downloadableDocs: ['Unit3_Transportation_Slides.pdf'],
+    driveUrl: 'https://drive.google.com'
+  },
+  {
+    id: 'unit-2',
+    unitNumber: 2,
+    unitTitle: 'Unit 2 Pages 15 to 27',
+    bookTitle: 'BIPA B1 Conversation Textbook',
+    title: 'Describing Daily Activities and Routine Schedules',
+    category: 'Grammar and Dialogue',
+    image: '/hero_study.jpg',
+    description: 'Apply temporal adverbials, chronological conjunctions, and active voice sentence structures',
+    audioTitle: 'Audio Track 02 Daily Routine Interview',
+    audioDuration: '14 Minutes',
+    progress: 100,
+    level: 'B1 Intermediate',
+    isCompleted: true,
+    topics: [
+      'Drafting weekly activity agendas',
+      'Chronological conjunctions: setelah, lalu, kemudian',
+      'Frequency adverbs: sering, jarang, selalu, kadang kadang'
+    ],
+    vocabularies: [
+      { term: 'Bangun pagi', meaning: 'Wake up early' },
+      { term: 'Menjelang sore', meaning: 'Late afternoon' },
+      { term: 'Kadang kadang', meaning: 'Sometimes' }
+    ],
+    grammarFocus: 'Verbal Affix Me: Memasak, membaca, mencatat, mengulang',
+    downloadableDocs: ['Unit2_Routines_Slides.pdf'],
+    driveUrl: 'https://drive.google.com'
+  },
+  {
+    id: 'unit-1',
+    unitNumber: 1,
+    unitTitle: 'Unit 1 Pages 1 to 14',
+    bookTitle: 'BIPA B1 Conversation Textbook',
+    title: 'Formal Introductions, Academic Background and Study Goals',
+    category: 'Formal Communication',
+    image: '/hero_study.jpg',
+    description: 'Deliver formal self introductions, articulate professional background, and explain goals for studying Indonesian',
+    audioTitle: 'Audio Track 01 Brief Introduction Speech',
+    audioDuration: '10 Minutes',
+    progress: 100,
+    level: 'B1 Intermediate',
+    isCompleted: true,
+    topics: [
+      'Formal greetings: Selamat pagi bapak ibu, hadirin yang terhormat',
+      'Explaining country of origin and local culture',
+      'Academic expectations and motivation for learning BIPA'
+    ],
+    vocabularies: [
+      { term: 'Berasal dari', meaning: 'Originate from' },
+      { term: 'Bercita cita', meaning: 'Aspire or dream to be' },
+      { term: 'Menempuh studi', meaning: 'Pursuing study' }
+    ],
+    grammarFocus: 'Coordinate Compound Sentences with karena, sehingga, tetapi',
+    downloadableDocs: ['Unit1_Introductions_Slides.pdf'],
+    driveUrl: 'https://drive.google.com'
+  },
+  {
+    id: 'unit-5',
+    unitNumber: 5,
+    unitTitle: 'Unit 5 Pages 56 to 70',
+    bookTitle: 'BIPA B1 Conversation Textbook',
+    title: 'Healthcare, Consulting a Doctor and Communicating Symptoms',
+    category: 'Situational Conversation',
+    image: '/task_market.jpg',
+    description: 'Learn clinic consultations, express medical symptoms, fever, headaches, and prescription guidelines',
+    audioTitle: 'Audio Track 05 Doctor and Pharmacy Consultation',
+    audioDuration: '18 Minutes',
+    progress: 10,
+    level: 'B1 Intermediate Upcoming',
+    isCompleted: false,
+    topics: [
+      'Stating health symptoms: headache, nausea, cough, flu',
+      'Medication instructions: 3 times daily after meals',
+      'Pharmacy dialogue with pharmacists'
+    ],
+    vocabularies: [
+      { term: 'Gejala', meaning: 'Symptoms' },
+      { term: 'Resep dokter', meaning: 'Doctor prescription' },
+      { term: 'Puskesmas', meaning: 'Community health clinic' }
+    ],
+    grammarFocus: 'Expressing Pain Saya merasa, Badan saya terasa panas',
+    downloadableDocs: ['Unit5_Healthcare_Preview_Slides.pdf'],
+    driveUrl: 'https://drive.google.com'
+  }
+];
+
+export const initialPedagogicalLogs = [
+  {
+    id: 'LOG-01',
+    date: '26 Mar 2026',
+    time: '11:45 WIB',
+    cls: 'BIPA A2 Elementary 2',
+    session: 'Meeting 4',
+    teacher: 'Ahmad Subagja, M.Hum.',
+    category: 'PRONUNCIATION',
+    catLabel: 'Pronunciation and Intonation',
+    targetGroup: 'Students from Japan & Korea (4 students)',
+    quote: '"Japanese students struggle to differentiate question vs. rhetorical intonation; supplementary audio drill practice is required."',
+    recommendation: 'Provide a dedicated audio drill module with pitch waveforms and rising inflection exercises at sentence endings.',
+    status: 'UNDER_SUPERVISION',
+    statusLabel: 'Under Supervision',
+    driveUrl: 'https://drive.google.com'
+  },
+  {
+    id: 'LOG-02',
+    date: '25 Mar 2026',
+    time: '14:20 WIB',
+    cls: 'BIPA B1 — Conversation & Culture',
+    session: 'Meeting 4',
+    teacher: 'Dra. Siti Rahmawati, M.Hum.',
+    category: 'CULTURE',
+    catLabel: 'Cultural & Field Adaptation',
+    targetGroup: 'Entire B1 Cohort (15 students)',
+    quote: '"During market simulations, several foreign students hesitated to bargain, fearing it would be perceived as impolite in Indonesian culture."',
+    recommendation: 'Explain the welcoming philosophy of Indonesian marketplace bargaining ("convivial social interaction") prior to field excursions.',
+    status: 'RESOLVED',
+    statusLabel: 'Solution Applied',
+    driveUrl: 'https://drive.google.com'
+  },
+  {
+    id: 'LOG-03',
+    date: '24 Mar 2026',
+    time: '16:00 WIB',
+    cls: 'BIPA B2 — Grammar & Discourse',
+    session: 'Meeting 3',
+    teacher: 'Dr. Maman Suryaman',
+    category: 'GRAMMAR',
+    catLabel: 'Grammar Morphology',
+    targetGroup: 'Students from Middle East & Europe (5 students)',
+    quote: '"Students frequently confuse the affix per-...-an (process/location) with ke-...-an (state/abstract noun)."',
+    recommendation: 'Provide visual comparison matrix tables with contextual example sentences from authentic online journalism.',
+    status: 'RESOLVED',
+    statusLabel: 'Solution Applied',
+    driveUrl: 'https://drive.google.com'
+  },
+  {
+    id: 'LOG-04',
+    date: '24 Mar 2026',
+    time: '10:30 WIB',
+    cls: 'BIPA C1 — Academic Research',
+    session: 'Meeting 3',
+    teacher: 'Dr. Maman Suryaman',
+    category: 'METHOD',
+    catLabel: 'Teaching Methodology',
+    targetGroup: 'C1 Class (8 students)',
+    quote: '"Discussion was dynamic regarding deforestation and peatland conservation; students demonstrated enthusiastic spoken argumentation."',
+    recommendation: 'Academic debate format is highly effective; recommend maintaining this approach for upcoming socio-economic themes.',
+    status: 'RESOLVED',
+    statusLabel: 'Best Practice',
+    driveUrl: 'https://drive.google.com'
+  },
+  {
+    id: 'LOG-05',
+    date: '23 Mar 2026',
+    time: '09:15 WIB',
+    cls: 'BIPA A1 — Fundamentals 1',
+    session: 'Meeting 4',
+    teacher: 'Pak Andi Wijaya',
+    category: 'PRONUNCIATION',
+    catLabel: 'Pronunciation and Intonation',
+    targetGroup: 'Western Students (6 students)',
+    quote: '"Pronunciation of word-initial velar nasal /ng/ such as in \\"ngantuk\\", \\"ngobrol\\" remains rigid."',
+    recommendation: 'Conduct rhythmic pronunciation practice aided by Indonesian rhythmic nursery rhymes and tonal drills.',
+    status: 'UNDER_SUPERVISION',
+    statusLabel: 'Under Supervision',
+    driveUrl: 'https://drive.google.com'
+  },
+  {
+    id: 'LOG-06',
+    date: '22 Mar 2026',
+    time: '13:00 WIB',
+    cls: 'BIPA A1 — Fundamentals 1',
+    session: 'Meeting 3',
+    teacher: 'Pak Andi Wijaya',
+    category: 'GRAMMAR',
+    catLabel: 'Grammar (Sentence Structure)',
+    targetGroup: 'Students from Japan & Korea (4 students)',
+    quote: '"Difficulty adapting to Head-Modifier (Diterangkan-Menerangkan) word order versus Modifier-Head in native languages."',
+    recommendation: 'Utilize colorful flashcards repeatedly reversing noun and adjective positions in structured pairs.',
+    status: 'RESOLVED',
+    statusLabel: 'Solution Applied',
+    driveUrl: 'https://drive.google.com'
+  }
+];
+
+export const initialMissionRecords = [
+  {
+    code: 'MISSION 01',
+    title: 'Public Transit Driver Interview and Route Navigation',
+    location: 'Dago Terminal and Jl Ir H Juanda',
+    deadline: 'Feb 20 2026',
+    status: 'COMPLETED',
+    score: 95,
+    proofUrl: 'https://drive.google.com',
+    feedback: 'Clear pronunciation and polite demeanor. Excellent field engagement.'
+  },
+  {
+    code: 'MISSION 02',
+    title: 'Produce Bargaining at Sederhana Market',
+    location: 'Sederhana Traditional Market Bandung',
+    deadline: 'Mar 06 2026',
+    status: 'COMPLETED',
+    score: 90,
+    proofUrl: 'https://drive.google.com',
+    feedback: 'Successfully negotiated with respectful language without offending merchants.'
+  },
+  {
+    code: 'MISSION 03',
+    title: 'Campus Canteen Ordering and Local Ingredient Inquiry',
+    location: 'BIPA Language Center Main Canteen',
+    deadline: 'Mar 27 2026',
+    status: 'COMPLETED',
+    score: 88,
+    proofUrl: 'https://drive.google.com',
+    feedback: 'Independent ordering completed successfully photo and notes verified.'
+  },
+  {
+    code: 'MISSION 04',
+    title: 'Batik Exploration and Artisan Dialogue',
+    location: 'Komar Batik Studio Cigadung',
+    deadline: 'Apr 10 2026',
+    status: 'ACTIVE',
+    score: null,
+    proofUrl: null,
+    feedback: 'Active mission this week. Prepare 5 interview questions.'
+  }
+];
+
