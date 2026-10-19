@@ -9,6 +9,7 @@ import {
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const NODE_ENV = process.env.NODE_ENV || 'production';
 
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
@@ -478,6 +479,7 @@ app.get('*', (req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Lentera BIPA Class Management Server running on port ${PORT}`);
+  console.log(`Lentera BIPA Class Management Server running in ${NODE_ENV.toUpperCase()} mode on port ${PORT}`);
+  console.log(`Application URL: http://localhost:${PORT}`);
 });
 

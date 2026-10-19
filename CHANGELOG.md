@@ -4,6 +4,20 @@ Semua catatan perubahan, perbaikan bug, dan penambahan fitur yang telah diselesa
 
 ---
 
+## [Versi 2.2.0] - 2026-10-19
+
+### ⚙️ Konfigurasi Eksekusi & Mode Produksi (Production Mode Deployment Ready)
+- **Standardisasi Skrip Produksi & Pengembangan di `package.json`:**
+  - Mengarahkan `npm start` dan `npm run start:prod` ke `node server/index.js` agar hosting platform (PaaS/VPS) langsung menyajikan API backend serta bundel statis frontend (`dist/`) pada satu port terpadu.
+  - Memisahkan skrip pengembangan lokal: `npm run dev` menjalankan server backend dan Vite secara konkuren, serta menambahkan jalan pintas `npm run dev:frontend` dan `npm run dev:server`.
+- **Pengaturan Environment & Server Startup:**
+  - Memperbarui [server/index.js](file:///c:/MyFolder/BIPA/ClassManagementBIPA/server/index.js) untuk mendeteksi `NODE_ENV` dengan default `'production'` dan menampilkan status log mode produksi yang jelas saat aplikasi menyala.
+  - Menambahkan file template [.env.example](file:///c:/MyFolder/BIPA/ClassManagementBIPA/.env.example) serta memperbarui [.gitignore](file:///c:/MyFolder/BIPA/ClassManagementBIPA/.gitignore) agar variabel lingkungan lokal aman dan tidak bocor ke repositori publik.
+- **Verifikasi dan Pengesahan Build Produksi:**
+  - Menjalankan `npm run build` dan memverifikasi kesehatan endpoint `/api/health` serta penyajian dokumen root `/` dengan HTTP 200 OK.
+
+---
+
 ## [Versi 2.1.0] - 2026-10-16
 
 ### 🚀 Peningkatan Fitur Silabus & Modul Dosen (Teacher Syllabus Mirror)
